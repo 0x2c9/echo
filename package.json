@@ -1,0 +1,48 @@
+{
+	"name": "echo-app",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@faker-js/faker": "^8.2.0",
+		"@supabase/supabase-js": "^2.38.4",
+		"@tiptap/extension-bold": "^2.1.12",
+		"@tiptap/extension-bullet-list": "^2.1.12",
+		"@tiptap/extension-document": "^2.1.12",
+		"@tiptap/extension-heading": "^2.1.12",
+		"@tiptap/extension-link": "^2.1.12",
+		"@tiptap/extension-list-item": "^2.1.12",
+		"@tiptap/extension-paragraph": "^2.1.12",
+		"@tiptap/extension-task-item": "^2.1.12",
+		"@tiptap/extension-task-list": "^2.1.12",
+		"@tiptap/extension-text": "^2.1.12",
+		"@tiptap/pm": "^2.1.12",
+		"@tiptap/vue-3": "^2.1.12",
+		"dayjs": "^1.11.10",
+		"vue-virtual-scroller": "2.0.0-beta.8"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "1.0.0",
+		"@nuxt/devtools": "1.0.0",
+		"@pinia/nuxt": "^0.5.1",
+		"@tailwindcss/typography": "^0.5.10",
+		"@types/node": "^20.8.10",
+		"@vueuse/core": "^10.5.0",
+		"@vueuse/nuxt": "^10.5.0",
+		"changelogen": "^0.5.5",
+		"eslint": "^8.52.0",
+		"nuxt": "^3.8.0",
+		"nuxt-fable": "latest",
+		"nuxt-icon": "^0.6.1",
+		"pinia": "^2.1.7",
+		"tailwindcss": "^3.3.5"
+	}
+}
